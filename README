@@ -1,0 +1,24 @@
+libwitutil:
+library to provide logging and http tx/rx functionality for libwit and witapp
+through simple 'c' APIs
+
+
+To clean:
+make clean
+   or
+git clean -dxf
+
+
+To build:
+./autogen.sh prefix=/usr
+make
+sudo make install
+
+
+Output:
+/usr/lib/libwitutil.so
+/usr/include/witutil.h
+
+
+Usage:
+-lwitutil
